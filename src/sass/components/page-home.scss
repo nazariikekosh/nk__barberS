@@ -1,0 +1,130 @@
+.home {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    &__content {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 150px;
+        padding-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__descript {
+        padding-top: 15px;
+
+        p {
+            font-family: $font1;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 1.5;
+            color: $color1;
+            text-align: center;
+
+            @media screen and (max-width:1200px) {
+                font-size: 38px;
+            }
+
+            @media screen and (max-width:992px) {
+                font-size: 30px;
+            }
+
+            @media screen and (max-width: 768px) {
+                font-size: 28px;
+            }
+
+            @media screen and (max-width: 425px) {
+                font-size: 22px;
+            }
+        }
+    }
+
+    &__title {
+        padding-top: 15px;
+
+        h1 {
+            font-family: $font1;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 2;
+            color: $color1;
+
+            @media screen and (max-width:1200px) {
+                font-size: 42px;
+            }
+
+            @media screen and (max-width:992px) {
+                font-size: 40px;
+            }
+
+            @media screen and (max-width: 768px) {
+                font-size: 38px;
+            }
+
+        }
+    }
+
+    &__years {
+        padding-top: 10px;
+
+        p {
+            font-family: $font1;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 44px;
+            line-height: 1.5;
+            text-align: center;
+            color: $color1;
+
+            @media screen and (max-width:1200px) {
+                font-size: 38px;
+            }
+
+            @media screen and (max-width:992px) {
+                font-size: 30px;
+            }
+
+            @media screen and (max-width: 768px) {
+                font-size: 28px;
+            }
+
+        }
+    }
+
+    &__subtitle {
+        padding-top: 30px;
+
+        p {
+            font-family: 'Rosario';
+            font-style: italic;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 1.5;
+            text-align: center;
+
+            color: $color1;
+
+            @media screen and (max-width:1200px) {
+                font-size: 38px;
+            }
+
+            @media screen and (max-width:992px) {
+                font-size: 30px;
+            }
+
+            @media screen and (max-width: 768px) {
+                font-size: 28px;
+            }
+
+            @media screen and (max-width: 425px) {
+                font-size: 22px;
+            }
+        }
+    }
+}
